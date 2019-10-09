@@ -50,9 +50,9 @@ See ##Input Requirements for more info.
 
 
 # Input Requirements
-    1. The data is entered in the provided input fields. ONLY numbers and letters accepted.
+    1. The data is entered in the provided input fields.
     2. The structure is as follows:
-        2.1 All coordinates for the room dimensions, hoover starting position and dirt patches' positions are using the Cartesian coordinate system (https://en.wikipedia.org/wiki/Cartesian_coordinate_system).
+        2.1 All coordinates for the room dimensions, hoover starting position and dirt patches' positions are using the Cartesian coordinate system (https://en.wikipedia.org/wiki/Cartesian_coordinate_system). Only positive numbers accepted.
         2.2 The navigation instructions are using the Cardinal Directions (https://en.wikipedia.org/wiki/Cardinal_direction), e.g. N, E, S, W. The format is as follows: "NNESEESWNWW"
 
 
