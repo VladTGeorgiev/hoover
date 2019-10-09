@@ -148,7 +148,7 @@ class InputData extends React.Component {
                                         <Image 
                                             src={dirt} 
                                             size='massive'/>
-                                            <div className='comfortaa'>Dirt positions</div>
+                                            <div className='comfortaa'>Dirt position</div>
                                 </Header>
                                     <DirtForm 
                                         dirtX={dirtX} 
