@@ -122,8 +122,10 @@ class App extends React.Component{
     };
 
     const getDrivingInstructions = () => {
-      const directionsString = this.state.data.directions.toUpperCase()
-      const directionsArray = directionsString.replace(/\s+/g, ' ').split('')
+      const directionsInput = this.state.data.directions.toUpperCase()
+      const regex = /[NESW]+/g;
+      const directionsString = directionsInput.match(regex)
+      const directionsArray = directionsString.toString().replace(/,/g, '').split('')
       const n = 'N';
       transformCardinalsIntoNumbers(directionsArray, n, 1);
       const s = "S";
