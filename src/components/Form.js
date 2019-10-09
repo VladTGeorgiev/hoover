@@ -83,7 +83,8 @@ class InputData extends React.Component {
                                         icon='arrow right' 
                                         iconPosition='left' 
                                         placeholder='X-axis' 
-                                        type="number" 
+                                        type="number"
+                                        min="0"
                                         value={this.state.roomX} onChange={e => this.setState({roomX: e.target.value})} />
                                     <Form.Input 
                                         fluid 
@@ -91,7 +92,8 @@ class InputData extends React.Component {
                                         icon='arrow up' 
                                         iconPosition='left' 
                                         placeholder='Y-axis' 
-                                        type="number" 
+                                        type="number"
+                                        min="0"
                                         value={this.state.roomY} 
                                         onChange={e => this.setState({roomY: e.target.value})}/>
                                 </Segment>
@@ -110,7 +112,8 @@ class InputData extends React.Component {
                                             icon='arrow right' 
                                             iconPosition='left' 
                                             placeholder='X-axis' 
-                                            type="number" 
+                                            type="number"
+                                            min="0"
                                             value={this.state.hooverX} 
                                             onChange={e => this.setState({hooverX: e.target.value})} />
                                         <Form.Input 
@@ -119,7 +122,8 @@ class InputData extends React.Component {
                                             icon='arrow up' 
                                             iconPosition='left' 
                                             placeholder='Y-axis' 
-                                            type="number" 
+                                            type="number"
+                                            min="0"
                                             value={this.state.hooverY} 
                                             onChange={e => this.setState({hooverY: e.target.value})}/>
                                         </Segment>

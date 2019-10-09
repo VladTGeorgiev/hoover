@@ -16,7 +16,8 @@ const DirtForm = ({ dirtX, dirtY, onUserInputChange, onUserInputChangeY}) => {
                 fluid icon='arrow right' 
                 iconPosition='left' 
                 placeholder='X-axis' 
-                type="number" 
+                type="number"
+                min="0"
                 name="dirtX" 
                 value={value} 
                 onChange={e => onUserInputChange(e, i)} />
@@ -31,7 +32,8 @@ const DirtForm = ({ dirtX, dirtY, onUserInputChange, onUserInputChangeY}) => {
                 icon='arrow up' 
                 iconPoCollectionition='left' 
                 placeholder='Y-axis' 
-                type="number" 
+                type="number"
+                min="0"
                 name="dirtY" 
                 value={value} 
                 onChange={e => onUserInputChangeY(e, i)}/>
